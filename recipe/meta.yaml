@@ -1,5 +1,5 @@
 {% set name = "kramdown-asciidoc" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: e9f259a2cd656cf27fd7b1c10d8da60ee591290fb97c387d72ecc16ff05df8c8
+    sha256: 5823c2d8b6e8770773f701b08fb34fbe3e04e95d5eb9f7308379439b33c4f89f
   - path: kramdoc.bat
 
 build:
